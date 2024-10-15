@@ -1,0 +1,66 @@
+# Python related
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyd
+
+# Django related
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.py[cod]
+*.so
+.Python
+db.sqlite3  # If you're using SQLite and don't want to track the database
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+ndvivenv/
+
+# macOS related
+.DS_Store
+
+# IDE related
+.vscode/
+.idea/
+
+# Migrations
+**/migrations/
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Static files
+staticfiles/
+media/
+
+# Secret keys and config
+.env
+*.pem
+config/settings/local.py  # For local settings or secrets that shouldn't be shared
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Node.js dependencies (if any)
+node_modules/
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
